@@ -1,0 +1,8 @@
+{
+	"title": "Медовая лавка",
+	"name": "{name, select, winnie{Винни-Пух} eeyore{Иа-Иа} piglet{Пятачок} owl{Сова} other {Hero}}",
+	"honey": "{amount, plural, =0{Пока ничего} =1{{amount} банка}  =few{{amount} банки} =other{{amount} банок}}",
+	"kind": "{kind, select, wild{Дикий мед} linden{Липовый мед} flower{Цветочный мед} other{Мед}}",
+	"price": "Итого: {value} ₽",
+	"date": "{date}"
+}

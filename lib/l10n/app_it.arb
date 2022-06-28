@@ -1,0 +1,10 @@
+
+{
+	"title": "Negozio di miele",
+	"name": "{name, select, winnie{Winnie the Pooh} eeyore{Ih-Oh} piglet{Pimpi} owl{Uffa} other {Hero}}",
+	"honey": "{amount, plural, =0{Ancora niente} =1{{amount} banca}  =few{{amount} banche} =other{{amount} lattine}}",
+	"kind": "{kind, select, wild{Miele selvatico} linden{Miele di lime} flower{Miele di fiori} other{Tesoro}}",
+	"price": "Totale: {value} €",
+	"date": "{date}"
+}
+

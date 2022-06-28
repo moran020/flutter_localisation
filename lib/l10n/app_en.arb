@@ -1,0 +1,38 @@
+{
+	"title": "Honey shop",
+	"name": "{name, select, winnie{Winnie the Pooh} eeyore{Eeyore} piglet{Piglet} owl{Owl} other {Hero}}",
+	"@name": {
+		"placeholders": {
+			"name": {}
+		}
+	},
+	"honey": "{amount, plural, =0{No Jars yet} =1{{amount} Jar} =other{{amount} Jars}}",
+	"@honey": {
+		"placeholders" : {
+			"amount": {}
+		}
+	},
+	"kind": "{kind, select, wild{Wild honey} linden{Linden honey} flower{Flower honey} other{Honey}}",
+    "@kind": {
+    "placeholders": {
+        "kind": {}
+    }
+	},
+	"price": "Total: {value} $",
+	"@price": {
+		"placeholders": {
+			"value":{
+			}
+		}
+	},
+	"date": "{date}",
+	"@date": {
+		"placeholders": {
+		"date": {
+		"type": "DateTime",
+		"format": "yMMMd"
+		}
+	}
+	}
+}
+
